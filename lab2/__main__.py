@@ -9,6 +9,7 @@ from lab2.squares import squares_dict
 
 def main() -> None:
     """Print results of every variant task."""
+    print("Medium tasks")
     print('reverse_string("lab2") ->', reverse_string("lab2"))
     print("squares_dict(5) ->", squares_dict(5))
     print("gcd(48, 18) ->", gcd(48, 18))
